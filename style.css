@@ -4,9 +4,61 @@ body {
   padding: 0;
   background-color: #f5f5f7;
 }
+.home {
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+}
 .main {
   width: 90%;
   margin: auto;
+}
+.about {
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+}
+.services {
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+}
+.about .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.services .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.services img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+}
+.about h1 {
+  text-align: center;
+}
+.main h1 {
+  text-align: center;
+}
+.services h1 {
+  text-align: center;
+}
+.contact h1 {
+  text-align: center;
+}
+
+.contact {
+  width: 90%;
+  margin: auto;
+  height: 100vh;
 }
 .header {
   width: 90%;
@@ -34,6 +86,18 @@ body {
   display: block;
   border-radius: 20px;
 }
+.home img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
+.home .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
 .main button {
   background-color: #000000;
   color: white;
@@ -49,4 +113,33 @@ body {
   padding: 10px;
   color: black;
   margin-top: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form button {
+  padding: 10px;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
